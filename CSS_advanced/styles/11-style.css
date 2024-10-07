@@ -1,0 +1,14 @@
+:root {
+	--section-header-align: center;
+	--section-tagline-transform: uppercase;
+  }
+  
+  .section-header {
+	text-align: var(--section-header-align);
+  }
+  
+  .section-tagline {
+	font-family: var(--font-family-title);
+	font-weight: var(--font-weight-bold);
+	text-transform: var(--section-tagline-transform);
+  }
