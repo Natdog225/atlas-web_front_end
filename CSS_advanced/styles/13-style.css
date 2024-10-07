@@ -2,15 +2,20 @@ a {
 	text-decoration: none;
 	display: block;
 	padding: 1rem 0;
+  }
   
-	&:link {  /* Add this line */
-	  color: var(--text-color); 
-	}
+  a:link { 
+	color: var(--text-color);
+  }
   
-	&:hover {
-	  background-color: var(--color-light-grey);
-	}
-	&:active {
-	  background-color: var(--color-primary);
-	}
+  a:visited { 
+	font-style: italic;
+  }
+  
+  a:hover { 
+	text-decoration: underline;
+  }
+  
+  a:active { 
+	background-color: var(--color-light-grey);
   }
